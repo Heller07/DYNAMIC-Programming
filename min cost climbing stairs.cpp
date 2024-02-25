@@ -53,6 +53,8 @@ public:
 };
 
 //SPACE OPTIMISATION
+//O(n) = TC
+//SC = O(1)
 class Solution {
 public:
     int solve(vector<int> &cost, int n){//TC = O(n)//SC = O(n)+O(n)
