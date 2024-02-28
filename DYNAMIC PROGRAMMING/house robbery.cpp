@@ -1,3 +1,4 @@
+//TC AND SC IS O(n)
 #include <bits/stdc++.h> 
 long long int solve(vector<int> &nums){
     
