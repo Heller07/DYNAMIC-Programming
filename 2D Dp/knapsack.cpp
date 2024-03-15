@@ -26,6 +26,7 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWeight)
     return result;
 }
 //REcursion + memo,top-down
+//Tc = O(n*w)
 #include <bits/stdc++.h> 
 int solvemem(vector<int> &weight,vector<int> &value,int index,int capacity,vector<vector<int> >&dp){
 	//base case
@@ -58,6 +59,7 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWeight)
     return result;
 }
 //BOTTOM DOWN
+//TC = O(w*n)
 #include <bits/stdc++.h> 
 int solvetab(vector<int> &weight,vector<int> &value,int n,int capacity){
 	//base case
@@ -89,6 +91,8 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWeight)
     return result;
 }
 //Space Optimization
+//TC same
+//SC = O(2w)
 #include <bits/stdc++.h> 
 int solvetab(vector<int> &weight,vector<int> &value,int n,int capacity){
 	//base case
@@ -125,6 +129,8 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWeight)
     return result;
 }
 //More optimised
+//Tc same
+//O(w)
 #include <bits/stdc++.h> 
 int solvetab(vector<int> &weight,vector<int> &value,int n,int capacity){
 	//base case
