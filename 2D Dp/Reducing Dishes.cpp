@@ -62,6 +62,7 @@ public:
 };//TC and SC are O(n*n) in dp approaches
 //space optimisation
 //sc is O(n)
+//sc O(1) is possible by greedy algo
 class Solution {
 public:
     int solve(vector<int>& satisfaction){
